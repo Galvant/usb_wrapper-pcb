@@ -1,0 +1,462 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB J?
+U 1 1 529D4303
+P 3400 2950
+F 0 "J?" H 3350 3350 60  0000 C CNN
+F 1 "USB" V 3150 3100 60  0000 C CNN
+F 2 "" H 3400 2950 60  0000 C CNN
+F 3 "" H 3400 2950 60  0000 C CNN
+	1    3400 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 3250 2450 0    60   ~ 0
+Device
+$Comp
+L USB J?
+U 1 1 529D436B
+P 5100 2950
+F 0 "J?" H 5050 3350 60  0000 C CNN
+F 1 "USB" V 4850 3100 60  0000 C CNN
+F 2 "" H 5100 2950 60  0000 C CNN
+F 3 "" H 5100 2950 60  0000 C CNN
+	1    5100 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 4750 2450 0    60   ~ 0
+Untrusted Power
+Text GLabel 3750 3300 2    60   Input ~ 0
+DM
+Text GLabel 3750 3150 2    60   Input ~ 0
+DP
+$Comp
+L VCC #PWR?
+U 1 1 529D44CF
+P 2950 3050
+F 0 "#PWR?" H 2950 3150 30  0001 C CNN
+F 1 "VCC" H 2950 3150 30  0000 C CNN
+F 2 "" H 2950 3050 60  0000 C CNN
+F 3 "" H 2950 3050 60  0000 C CNN
+	1    2950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 529D44E3
+P 4650 3050
+F 0 "#PWR?" H 4650 3150 30  0001 C CNN
+F 1 "VCC" H 4650 3150 30  0000 C CNN
+F 2 "" H 4650 3050 60  0000 C CNN
+F 3 "" H 4650 3050 60  0000 C CNN
+	1    4650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3050 4650 3150
+Wire Wire Line
+	4650 3150 4700 3150
+Wire Wire Line
+	2950 3050 2950 3150
+Wire Wire Line
+	2950 3150 3000 3150
+$Comp
+L GND #PWR?
+U 1 1 529D44FD
+P 2850 3350
+F 0 "#PWR?" H 2850 3350 30  0001 C CNN
+F 1 "GND" H 2850 3280 30  0001 C CNN
+F 2 "" H 2850 3350 60  0000 C CNN
+F 3 "" H 2850 3350 60  0000 C CNN
+	1    2850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 529D4511
+P 4550 3350
+F 0 "#PWR?" H 4550 3350 30  0001 C CNN
+F 1 "GND" H 4550 3280 30  0001 C CNN
+F 2 "" H 4550 3350 60  0000 C CNN
+F 3 "" H 4550 3350 60  0000 C CNN
+	1    4550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3300 4550 3300
+Wire Wire Line
+	4550 3300 4550 3350
+Wire Wire Line
+	3000 3300 2850 3300
+Wire Wire Line
+	2850 3300 2850 3350
+NoConn ~ 5450 3150
+NoConn ~ 5450 3300
+$Comp
+L R R?
+U 1 1 529D456B
+P 2000 4600
+F 0 "R?" V 2080 4600 40  0000 C CNN
+F 1 "300k" V 2007 4601 40  0000 C CNN
+F 2 "" V 1930 4600 30  0000 C CNN
+F 3 "" H 2000 4600 30  0000 C CNN
+	1    2000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D457D
+P 2000 5100
+F 0 "R?" V 2080 5100 40  0000 C CNN
+F 1 "20k" V 2007 5101 40  0000 C CNN
+F 2 "" V 1930 5100 30  0000 C CNN
+F 3 "" H 2000 5100 30  0000 C CNN
+	1    2000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D4588
+P 2300 4600
+F 0 "R?" V 2380 4600 40  0000 C CNN
+F 1 "300k" V 2307 4601 40  0000 C CNN
+F 2 "" V 2230 4600 30  0000 C CNN
+F 3 "" H 2300 4600 30  0000 C CNN
+	1    2300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D4593
+P 2300 5100
+F 0 "R?" V 2380 5100 40  0000 C CNN
+F 1 "20k" V 2307 5101 40  0000 C CNN
+F 2 "" V 2230 5100 30  0000 C CNN
+F 3 "" H 2300 5100 30  0000 C CNN
+	1    2300 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 2750 4050 2    60   ~ 0
+Charging Downstream Port
+Wire Wire Line
+	2000 4350 2300 4350
+Wire Wire Line
+	2150 4300 2150 4350
+Connection ~ 2150 4350
+$Comp
+L VDD #PWR?
+U 1 1 529D45D3
+P 2150 4300
+F 0 "#PWR?" H 2150 4400 30  0001 C CNN
+F 1 "VDD" H 2150 4410 30  0000 C CNN
+F 2 "" H 2150 4300 60  0000 C CNN
+F 3 "" H 2150 4300 60  0000 C CNN
+	1    2150 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 2400 4250 2    60   ~ 0
+3.6V
+Wire Wire Line
+	2000 5350 2300 5350
+Wire Wire Line
+	2150 5350 2150 5400
+Connection ~ 2150 5350
+$Comp
+L GND #PWR?
+U 1 1 529D4606
+P 2150 5400
+F 0 "#PWR?" H 2150 5400 30  0001 C CNN
+F 1 "GND" H 2150 5330 30  0001 C CNN
+F 2 "" H 2150 5400 60  0000 C CNN
+F 3 "" H 2150 5400 60  0000 C CNN
+	1    2150 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 4850 0    60   Input ~ 0
+CDP_DP
+Text GLabel 2350 4850 2    60   Input ~ 0
+CDP_DM
+Wire Wire Line
+	2300 4850 2350 4850
+Wire Wire Line
+	2000 4850 1950 4850
+$Comp
+L R R?
+U 1 1 529D4653
+P 3550 4600
+F 0 "R?" V 3630 4600 40  0000 C CNN
+F 1 "75.0k" V 3557 4601 40  0000 C CNN
+F 2 "" V 3480 4600 30  0000 C CNN
+F 3 "" H 3550 4600 30  0000 C CNN
+	1    3550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D4659
+P 3550 5100
+F 0 "R?" V 3630 5100 40  0000 C CNN
+F 1 "49.9k" V 3557 5101 40  0000 C CNN
+F 2 "" V 3480 5100 30  0000 C CNN
+F 3 "" H 3550 5100 30  0000 C CNN
+	1    3550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D465F
+P 3850 4600
+F 0 "R?" V 3930 4600 40  0000 C CNN
+F 1 "43.2k" V 3857 4601 40  0000 C CNN
+F 2 "" V 3780 4600 30  0000 C CNN
+F 3 "" H 3850 4600 30  0000 C CNN
+	1    3850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D4665
+P 3850 5100
+F 0 "R?" V 3930 5100 40  0000 C CNN
+F 1 "49.9k" V 3857 5101 40  0000 C CNN
+F 2 "" V 3780 5100 30  0000 C CNN
+F 3 "" H 3850 5100 30  0000 C CNN
+	1    3850 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 4050 4050 2    60   ~ 0
+Apple Charger
+Wire Wire Line
+	3550 4350 3850 4350
+Wire Wire Line
+	3700 4300 3700 4350
+Connection ~ 3700 4350
+Wire Wire Line
+	3550 5350 3850 5350
+Wire Wire Line
+	3700 5350 3700 5400
+Connection ~ 3700 5350
+$Comp
+L GND #PWR?
+U 1 1 529D4679
+P 3700 5400
+F 0 "#PWR?" H 3700 5400 30  0001 C CNN
+F 1 "GND" H 3700 5330 30  0001 C CNN
+F 2 "" H 3700 5400 60  0000 C CNN
+F 3 "" H 3700 5400 60  0000 C CNN
+	1    3700 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 3500 4850 0    60   Input ~ 0
+APPL_DP
+Text GLabel 3900 4850 2    60   Input ~ 0
+APPL_DM_1A
+Wire Wire Line
+	3850 4850 3900 4850
+Wire Wire Line
+	3550 4850 3500 4850
+$Comp
+L VCC #PWR?
+U 1 1 529D4686
+P 3700 4300
+F 0 "#PWR?" H 3700 4400 30  0001 C CNN
+F 1 "VCC" H 3700 4400 30  0000 C CNN
+F 2 "" H 3700 4300 60  0000 C CNN
+F 3 "" H 3700 4300 60  0000 C CNN
+	1    3700 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 3650 4150 0    60   ~ 0
+1A
+$Comp
+L R R?
+U 1 1 529D477A
+P 3850 5900
+F 0 "R?" V 3930 5900 40  0000 C CNN
+F 1 "75.0k" V 3857 5901 40  0000 C CNN
+F 2 "" V 3780 5900 30  0000 C CNN
+F 3 "" H 3850 5900 30  0000 C CNN
+	1    3850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D4780
+P 3850 6400
+F 0 "R?" V 3930 6400 40  0000 C CNN
+F 1 "49.9k" V 3857 6401 40  0000 C CNN
+F 2 "" V 3780 6400 30  0000 C CNN
+F 3 "" H 3850 6400 30  0000 C CNN
+	1    3850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 529D4788
+P 3850 6700
+F 0 "#PWR?" H 3850 6700 30  0001 C CNN
+F 1 "GND" H 3850 6630 30  0001 C CNN
+F 2 "" H 3850 6700 60  0000 C CNN
+F 3 "" H 3850 6700 60  0000 C CNN
+	1    3850 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 6150 2    60   Input ~ 0
+APPL_DM_500mA
+Wire Wire Line
+	3850 6150 3900 6150
+$Comp
+L VCC #PWR?
+U 1 1 529D47A7
+P 3850 5600
+F 0 "#PWR?" H 3850 5700 30  0001 C CNN
+F 1 "VCC" H 3850 5700 30  0000 C CNN
+F 2 "" H 3850 5600 60  0000 C CNN
+F 3 "" H 3850 5600 60  0000 C CNN
+	1    3850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5600 3850 5650
+Wire Wire Line
+	3850 6650 3850 6700
+Text Notes 3600 6150 0    60   ~ 0
+500mA
+$Comp
+L R R?
+U 1 1 529D4886
+P 5350 4600
+F 0 "R?" V 5430 4600 40  0000 C CNN
+F 1 "5.1k" V 5357 4601 40  0000 C CNN
+F 2 "" V 5280 4600 30  0000 C CNN
+F 3 "" H 5350 4600 30  0000 C CNN
+	1    5350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D488C
+P 5350 5100
+F 0 "R?" V 5430 5100 40  0000 C CNN
+F 1 "10k" V 5357 5101 40  0000 C CNN
+F 2 "" V 5280 5100 30  0000 C CNN
+F 3 "" H 5350 5100 30  0000 C CNN
+	1    5350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D4892
+P 5650 4600
+F 0 "R?" V 5730 4600 40  0000 C CNN
+F 1 "5.1k" V 5657 4601 40  0000 C CNN
+F 2 "" V 5580 4600 30  0000 C CNN
+F 3 "" H 5650 4600 30  0000 C CNN
+	1    5650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 529D4898
+P 5650 5100
+F 0 "R?" V 5730 5100 40  0000 C CNN
+F 1 "10k" V 5657 5101 40  0000 C CNN
+F 2 "" V 5580 5100 30  0000 C CNN
+F 3 "" H 5650 5100 30  0000 C CNN
+	1    5650 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 5800 4100 2    60   ~ 0
+Sony Charger
+Wire Wire Line
+	5350 4350 5650 4350
+Wire Wire Line
+	5500 4300 5500 4350
+Connection ~ 5500 4350
+Wire Wire Line
+	5350 5350 5650 5350
+Wire Wire Line
+	5500 5350 5500 5400
+Connection ~ 5500 5350
+$Comp
+L GND #PWR?
+U 1 1 529D48A5
+P 5500 5400
+F 0 "#PWR?" H 5500 5400 30  0001 C CNN
+F 1 "GND" H 5500 5330 30  0001 C CNN
+F 2 "" H 5500 5400 60  0000 C CNN
+F 3 "" H 5500 5400 60  0000 C CNN
+	1    5500 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 4850 0    60   Input ~ 0
+SONY_DP
+Text GLabel 5700 4850 2    60   Input ~ 0
+SONY_DM
+Wire Wire Line
+	5650 4850 5700 4850
+Wire Wire Line
+	5350 4850 5300 4850
+$Comp
+L VCC #PWR?
+U 1 1 529D48AF
+P 5500 4300
+F 0 "#PWR?" H 5500 4400 30  0001 C CNN
+F 1 "VCC" H 5500 4400 30  0000 C CNN
+F 2 "" H 5500 4300 60  0000 C CNN
+F 3 "" H 5500 4300 60  0000 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 7600 4100 2    60   ~ 0
+Dedicated Charging Port
+Text GLabel 6850 4300 0    60   Input ~ 0
+DCP_DP
+Text GLabel 7250 4300 2    60   Input ~ 0
+DCP_DM
+Wire Wire Line
+	6850 4300 7250 4300
+$EndSCHEMATC
