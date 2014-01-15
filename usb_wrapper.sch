@@ -29,16 +29,18 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:dp5t_switch
+LIBS:usb_wrapper-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "USB Wrapper"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1"
+Comp "Galvant Industries"
+Comment1 "Author: Steven Casagrande"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -459,4 +461,39 @@ Text GLabel 7250 4300 2    60   Input ~ 0
 DCP_DM
 Wire Wire Line
 	6850 4300 7250 4300
+$Comp
+L DP5T SW?
+U 1 1 52D5EC3C
+P 7300 1900
+F 0 "SW?" H 7100 2050 50  0000 C CNN
+F 1 "DP5T" H 7000 1550 50  0000 C CNN
+F 2 "" H 7300 1900 60  0000 C CNN
+F 3 "" H 7300 1900 60  0000 C CNN
+	1    7300 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 1900 0    60   Input ~ 0
+DP
+Text GLabel 6800 2700 0    60   Input ~ 0
+DM
+Text GLabel 7800 1650 2    60   Input ~ 0
+DCP_DP
+Text GLabel 7800 2450 2    60   Input ~ 0
+DCP_DM
+Text GLabel 7800 1800 2    60   Input ~ 0
+CDP_DP
+Text GLabel 7800 2600 2    60   Input ~ 0
+CDP_DM
+Text GLabel 7800 1950 2    60   Input ~ 0
+APPL_DP
+Text GLabel 7800 2750 2    60   Input ~ 0
+APPL_DM_1A
+Text GLabel 7800 2100 2    60   Input ~ 0
+APPL_DP
+Text GLabel 7800 2900 2    60   Input ~ 0
+APPL_DM_500mA
+Text GLabel 7800 2250 2    60   Input ~ 0
+SONY_DP
+Text GLabel 7800 3050 2    60   Input ~ 0
+SONY_DM
 $EndSCHEMATC
