@@ -56,3 +56,6 @@ nosetests.xml
 *.sym
 -d-debug.txt
 compile.sh
+
+# KiCAD
+*.bak
