@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Thu 16 Jan 2014 01:04:35 PM EST
+Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Thu 16 Jan 2014 05:34:20 PM EST
 
 BeginCmp
 TimeStamp = /529D4303;
@@ -19,34 +19,6 @@ TimeStamp = /52D81E9E;
 Reference = J3;
 ValeurCmp = USB;
 IdModule  = Connect:USB_B;
-EndCmp
-
-BeginCmp
-TimeStamp = /529D456B;
-Reference = R1;
-ValeurCmp = 300k;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /529D457D;
-Reference = R2;
-ValeurCmp = 20k;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /529D4588;
-Reference = R3;
-ValeurCmp = 300k;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /529D4593;
-Reference = R4;
-ValeurCmp = 20k;
-IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -94,36 +66,71 @@ EndCmp
 BeginCmp
 TimeStamp = /529D4886;
 Reference = R11;
-ValeurCmp = 5.1k;
+ValeurCmp = 40.2k;
 IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /529D488C;
 Reference = R12;
-ValeurCmp = 10k;
+ValeurCmp = 49.9k;
 IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /529D4892;
 Reference = R13;
-ValeurCmp = 5.1k;
+ValeurCmp = 40.2k;
 IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /529D4898;
 Reference = R14;
+ValeurCmp = 49.9k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D84076;
+Reference = R15;
+ValeurCmp = 5.1k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8407C;
+Reference = R16;
 ValeurCmp = 10k;
 IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D5EC3C;
+TimeStamp = /52D84082;
+Reference = R17;
+ValeurCmp = 5.1k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D84088;
+Reference = R18;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D853ED;
 Reference = SW1;
-ValeurCmp = DP5T;
-IdModule  = dp5t_switch:dp5t_slider_switch;
+ValeurCmp = DP4T;
+IdModule  = dp5t_switch:dp4t_switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D8450F;
+Reference = SW2;
+ValeurCmp = DP4T;
+IdModule  = dp5t_switch:dp4t_switch;
 EndCmp
 
 EndListe
