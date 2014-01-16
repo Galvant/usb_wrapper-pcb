@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name dp5t_switch)(type KiCad)(uri ${KIPRJMOD}/libraries/dp5t_slider_switch.pretty/)(options "")(descr "Slider switch"))
+  (lib (name open_project_lib)(type Legacy)(uri ${KIPRJMOD}/libraries/kicadlibrary/open-project.mod)(options "")(descr ""))
+)

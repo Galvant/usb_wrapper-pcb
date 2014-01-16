@@ -472,28 +472,28 @@ F 3 "" H 7300 1900 60  0000 C CNN
 	1    7300 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 6800 1900 0    60   Input ~ 0
-DP
 Text GLabel 6800 2700 0    60   Input ~ 0
+DP
+Text GLabel 6800 1900 0    60   Input ~ 0
 DM
-Text GLabel 7800 1650 2    60   Input ~ 0
-DCP_DP
 Text GLabel 7800 2450 2    60   Input ~ 0
+DCP_DP
+Text GLabel 7800 1650 2    60   Input ~ 0
 DCP_DM
-Text GLabel 7800 1800 2    60   Input ~ 0
-CDP_DP
 Text GLabel 7800 2600 2    60   Input ~ 0
+CDP_DP
+Text GLabel 7800 1800 2    60   Input ~ 0
 CDP_DM
-Text GLabel 7800 1950 2    60   Input ~ 0
-APPL_DP
 Text GLabel 7800 2750 2    60   Input ~ 0
-APPL_DM_1A
-Text GLabel 7800 2100 2    60   Input ~ 0
 APPL_DP
+Text GLabel 7800 1950 2    60   Input ~ 0
+APPL_DM_1A
 Text GLabel 7800 2900 2    60   Input ~ 0
+APPL_DP
+Text GLabel 7800 2100 2    60   Input ~ 0
 APPL_DM_500mA
-Text GLabel 7800 2250 2    60   Input ~ 0
-SONY_DP
 Text GLabel 7800 3050 2    60   Input ~ 0
+SONY_DP
+Text GLabel 7800 2250 2    60   Input ~ 0
 SONY_DM
 $EndSCHEMATC

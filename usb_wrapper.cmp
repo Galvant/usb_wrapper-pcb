@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-11-28 BZR 4510)-product date = Thu 16 Jan 2014 09:35:55 AM EST
+
+BeginCmp
+TimeStamp = /529D4303;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = Connect:USB_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D436B;
+Reference = J2;
+ValeurCmp = USB;
+IdModule  = open_project_lib:MICRO-B_USB;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D456B;
+Reference = R1;
+ValeurCmp = 300k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D457D;
+Reference = R2;
+ValeurCmp = 20k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4588;
+Reference = R3;
+ValeurCmp = 300k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4593;
+Reference = R4;
+ValeurCmp = 20k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4653;
+Reference = R5;
+ValeurCmp = 75.0k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4659;
+Reference = R6;
+ValeurCmp = 49.9k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D465F;
+Reference = R7;
+ValeurCmp = 43.2k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4665;
+Reference = R8;
+ValeurCmp = 49.9k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D477A;
+Reference = R9;
+ValeurCmp = 75.0k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4780;
+Reference = R10;
+ValeurCmp = 49.9k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4886;
+Reference = R11;
+ValeurCmp = 5.1k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D488C;
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4892;
+Reference = R13;
+ValeurCmp = 5.1k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /529D4898;
+Reference = R14;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D5EC3C;
+Reference = SW1;
+ValeurCmp = DP5T;
+IdModule  = dp5t_switch:dp5t_slider_switch;
+EndCmp
+
+EndListe
