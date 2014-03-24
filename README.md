@@ -6,7 +6,7 @@ by Galvant Industries.
 
 This project is entirely open source hardware.
 
-Pre-assembled boards will be available shortly at www.galvant.ca
+Pre-assembled boards now available at http://galvant.ca/shop/usb-wrapper/
 
 About
 -----
